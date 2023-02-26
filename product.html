@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c92c7f13c5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Product</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <nav class="navbar">
+        <div class="brand-name"><a href="Index.html">Dr MOBILE</a></div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="list-items">
+          <div class="searhBar">
+            <label for="search">
+              <i class="fas fa-search"></i>
+            </label>
+            <input type="search" />
+          </div>
+          <ul>
+            <li><a href="product.html">OUR PRODUCT</a></li>
+            <li><a href="#">VISIT US</a></li>
+            <li><a href="#">ABOUT US</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="slider">
+      <figure>
+        <img src="images/side2.jpg" alt="" />
+        <img src="images/side2.jpg" alt="" />
+        <!-- <img src="images/side2.jpg" alt="" />
+        <img src="images/side2.jpg" alt="" /> -->
+      </figure>
+    </div>
+    <div class="aboutcontainer">
+      <h1>Products</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et
+        necessitatibus quibusdam dolorem optio, debitis deserunt ut consequuntur
+        repellat ab aliquam sunt non vitae reiciendis similique tempore
+        repudiandae voluptatem eum? Cum.
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae at
+        illo, consequatur vero vitae? At dolores recusandae dolore quidem neque.
+        Nesciunt aliquid ex similique voluptate tenetur, voluptates ipsam?
+        Numquam?
+      </p>
+    </div>
+
+    <footer>
+      <div class="footerContainer">
+        <div class="about">
+          <h3>About US</h3>
+          <div>
+            <ul>
+              <li>Our Product</li>
+              <li>Visit</li>
+              <li>About</li>
+            </ul>
+          </div>
+        </div>
+        <div class="support">
+          <h3>Support</h3>
+          <div>
+            <ul>
+              <li>Customer Care</li>
+              <li>Whatsup</li>
+              <li>Telegram</li>
+              <li>Facebook</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <div class="supportIcons">
+          <h3>Contact Now</h3>
+          <div>
+            <ul>
+              <li onmouseover="mouseOverPhone()" onmouseout="mouseOutPhone()">
+                <i id="phone" class="fa fa-phone"></i>
+              </li>
+              <li
+                onmouseover="mouseOverWhatsup()"
+                onmouseout="mouseOutWhatsup()"
+              >
+                <i id="whatsup" class="fa fa-whatsapp"></i>
+              </li>
+              <li
+                onmouseover="mouseOvertelegram()"
+                onmouseout="mouseOuttelegram()"
+              >
+                <i id="telegram" class="fa fa-telegram" aria-hidden="true"></i>
+              </li>
+              <li onmouseover="mouseOverFace()" onmouseout="mouseOutFace()">
+                <i id="face" class="fa fa-facebook" aria-hidden="true"></i>
+              </li>
+              <li onmouseover="mouseOverYou()" onmouseout="mouseOutYou()">
+                <i id="youtube" class="fa fa-youtube" aria-hidden="true"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function mouseOverPhone() {
+        document.getElementById("phone").style.color = "blue";
+      }
+      function mouseOutPhone() {
+        document.getElementById("phone").style.color = "black";
+      }
+      function mouseOverWhatsup() {
+        document.getElementById("whatsup").style.color = "Green";
+      }
+      function mouseOutWhatsup() {
+        document.getElementById("whatsup").style.color = "black";
+      }
+      function mouseOvertelegram() {
+        document.getElementById("telegram").style.color = "Blue";
+      }
+      function mouseOuttelegram() {
+        document.getElementById("telegram").style.color = "black";
+      }
+      function mouseOverFace() {
+        document.getElementById("face").style.color = "Blue";
+      }
+      function mouseOutFace() {
+        document.getElementById("face").style.color = "black";
+      }
+      function mouseOverYou() {
+        document.getElementById("youtube").style.color = "Red";
+      }
+      function mouseOutYou() {
+        document.getElementById("youtube").style.color = "black";
+      }
+    </script>
+  </body>
+</html>
